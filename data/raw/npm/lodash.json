@@ -1,0 +1,20 @@
+{
+  "name": "lodash",
+  "version": "4.17.21",
+  "maintainers": [
+    {
+      "name": "mathias",
+      "email": "mathias@qiwi.be"
+    },
+    {
+      "name": "jdalton",
+      "email": "john.david.dalton@gmail.com"
+    },
+    {
+      "name": "bnjmnt4n",
+      "email": "benjamin@dev.ofcr.se"
+    }
+  ],
+  "dependencies": {},
+  "description": "Lodash modular utilities."
+}

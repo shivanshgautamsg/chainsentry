@@ -1,0 +1,12 @@
+{
+  "name": "lodash",
+  "version": "4.17.21",
+  "platform": "npm",
+  "dependencies": [],
+  "maintainers": [
+    "mathias",
+    "jdalton",
+    "bnjmnt4n"
+  ],
+  "description": "Lodash modular utilities."
+}

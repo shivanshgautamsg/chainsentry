@@ -1,0 +1,42 @@
+{
+  "name": "express",
+  "version": "5.1.0",
+  "platform": "npm",
+  "dependencies": [
+    "qs",
+    "etag",
+    "once",
+    "send",
+    "vary",
+    "debug",
+    "fresh",
+    "cookie",
+    "router",
+    "accepts",
+    "type-is",
+    "parseurl",
+    "statuses",
+    "encodeurl",
+    "mime-types",
+    "proxy-addr",
+    "body-parser",
+    "escape-html",
+    "http-errors",
+    "on-finished",
+    "content-type",
+    "finalhandler",
+    "range-parser",
+    "serve-static",
+    "cookie-signature",
+    "merge-descriptors",
+    "content-disposition"
+  ],
+  "maintainers": [
+    "wesleytodd",
+    "jonchurch",
+    "ctcpip",
+    "ulisesgascon",
+    "sheplu"
+  ],
+  "description": "Fast, unopinionated, minimalist web framework"
+}

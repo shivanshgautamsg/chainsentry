@@ -1,0 +1,28 @@
+{
+  "name": "axios",
+  "version": "1.10.0",
+  "maintainers": [
+    {
+      "name": "mzabriskie",
+      "email": "mzabriskie@gmail.com"
+    },
+    {
+      "name": "nickuraltsev",
+      "email": "nick.uraltsev@gmail.com"
+    },
+    {
+      "name": "emilyemorehouse",
+      "email": "emilyemorehouse@gmail.com"
+    },
+    {
+      "name": "jasonsaayman",
+      "email": "jasonsaayman@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "follow-redirects": "^1.15.6",
+    "form-data": "^4.0.0",
+    "proxy-from-env": "^1.1.0"
+  },
+  "description": "Promise based HTTP client for the browser and node.js"
+}

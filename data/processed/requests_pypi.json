@@ -1,0 +1,17 @@
+{
+  "name": "requests",
+  "version": "2.32.4",
+  "platform": "pypi",
+  "dependencies": [
+    "charset_normalizer<4,>=2",
+    "idna<4,>=2.5",
+    "urllib3<3,>=1.21.1",
+    "certifi>=2017.4.17",
+    "PySocks!=1.5.7,>=1.5.6; extra == \"socks\"",
+    "chardet<6,>=3.0.2; extra == \"use-chardet-on-py3\""
+  ],
+  "maintainers": [
+    "Kenneth Reitz"
+  ],
+  "description": "Python HTTP for Humans."
+}

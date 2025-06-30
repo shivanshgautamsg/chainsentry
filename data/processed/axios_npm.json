@@ -1,0 +1,17 @@
+{
+  "name": "axios",
+  "version": "1.10.0",
+  "platform": "npm",
+  "dependencies": [
+    "follow-redirects",
+    "form-data",
+    "proxy-from-env"
+  ],
+  "maintainers": [
+    "mzabriskie",
+    "nickuraltsev",
+    "emilyemorehouse",
+    "jasonsaayman"
+  ],
+  "description": "Promise based HTTP client for the browser and node.js"
+}
