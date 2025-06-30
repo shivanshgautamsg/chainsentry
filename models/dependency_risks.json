@@ -1,0 +1,41 @@
+[
+  {
+    "package": "axios",
+    "platform": "npm",
+    "issues": [],
+    "num_dependencies": 3
+  },
+  {
+    "package": "express",
+    "platform": "npm",
+    "issues": [
+      "Possible typosquat: vary",
+      "Possible typosquat: fresh"
+    ],
+    "num_dependencies": 27
+  },
+  {
+    "package": "flask",
+    "platform": "pypi",
+    "issues": [],
+    "num_dependencies": 9
+  },
+  {
+    "package": "lodash",
+    "platform": "npm",
+    "issues": [],
+    "num_dependencies": 0
+  },
+  {
+    "package": "pandas",
+    "platform": "pypi",
+    "issues": [],
+    "num_dependencies": 85
+  },
+  {
+    "package": "requests",
+    "platform": "pypi",
+    "issues": [],
+    "num_dependencies": 6
+  }
+]
