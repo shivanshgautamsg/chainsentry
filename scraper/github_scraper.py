@@ -26,7 +26,7 @@ def fetch_github_metadata(owner, repo):
         "repo": f"{owner}/{repo}",
         "commits": all_commits,
         "contributors": contributors
-    }
+    } 
 
 if __name__ == "__main__":
     os.makedirs("data/raw/github", exist_ok=True)

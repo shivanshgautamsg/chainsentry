@@ -1,0 +1,218 @@
+[
+  {
+    "package": "axios",
+    "platform": "npm",
+    "cves": [
+      {
+        "id": "CVE-2018-18437",
+        "score": 0,
+        "desc": "In AXIOS ITALIA Axioscloud Sissiweb Registro Elettronico 1.7.0, secret/relogoff.aspx has XSS via the Error_Desc parameter.",
+        "mitre": "CWE-79"
+      },
+      {
+        "id": "CVE-2019-7693",
+        "score": 0,
+        "desc": "Axios Italia Axios RE 1.7.0/7.0.0 devices have XSS via the RELogOff.aspx Error_Parameters parameter. In some situations, the XSS would be on the family.axioscloud.it cloud service; however, the vendor also supports \"Sissi in Rete (con server)\" for offline operation.",
+        "mitre": "CWE-79"
+      },
+      {
+        "id": "CVE-2019-10742",
+        "score": 0,
+        "desc": "Axios up to and including 0.18.0 allows attackers to cause a denial of service (application crash) by continuing to accepting content after maxContentLength is exceeded.",
+        "mitre": "CWE-755"
+      },
+      {
+        "id": "CVE-2020-28168",
+        "score": 5.9,
+        "desc": "Axios NPM package 0.21.0 contains a Server-Side Request Forgery (SSRF) vulnerability where an attacker is able to bypass a proxy by providing a URL that responds with a redirect to a restricted host or IP address.",
+        "mitre": "CWE-918"
+      },
+      {
+        "id": "CVE-2021-3749",
+        "score": 7.5,
+        "desc": "axios is vulnerable to Inefficient Regular Expression Complexity",
+        "mitre": "CWE-1333"
+      }
+    ]
+  },
+  {
+    "package": "express",
+    "platform": "npm",
+    "cves": [
+      {
+        "id": "CVE-1999-0967",
+        "score": 0,
+        "desc": "Buffer overflow in the HTML library used by Internet Explorer, Outlook Express, and Windows Explorer via the res: local resource protocol.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-1033",
+        "score": 0,
+        "desc": "Microsoft Outlook Express before 4.72.3612.1700 allows a malicious user to send a message that contains a .., which can inadvertently cause Outlook to re-enter POP3 command mode and cause the POP3 session to hang.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-1016",
+        "score": 0,
+        "desc": "Microsoft HTML control as used in (1) Internet Explorer 5.0, (2) FrontPage Express, (3) Outlook Express 5, and (4) Eudora, and possibly others, allows remote malicious web site or HTML emails to cause a denial of service (100% CPU consumption) via large HTML form fields such as text inputs in a table cell.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-1009",
+        "score": 0,
+        "desc": "The Disney Go Express Search allows remote attackers to access and modify search information for users by connecting to an HTTP server on the user's system.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-2000-0036",
+        "score": 0,
+        "desc": "Outlook Express 5 for Macintosh downloads attachments to HTML mail without prompting the user, aka the \"HTML Mail Attachment\" vulnerability.",
+        "mitre": "NVD-CWE-Other"
+      }
+    ]
+  },
+  {
+    "package": "flask",
+    "platform": "pypi",
+    "cves": [
+      {
+        "id": "CVE-2008-3687",
+        "score": 0,
+        "desc": "Heap-based buffer overflow in the flask_security_label function in Xen 3.3, when compiled with the XSM:FLASK module, allows unprivileged domain users (domU) to execute arbitrary code via the flask_op hypercall.",
+        "mitre": "CWE-119"
+      },
+      {
+        "id": "CVE-2014-1891",
+        "score": 0,
+        "desc": "Multiple integer overflows in the (1) FLASK_GETBOOL, (2) FLASK_SETBOOL, (3) FLASK_USER, and (4) FLASK_CONTEXT_TO_SID suboperations in the flask hypercall in Xen 4.3.x, 4.2.x, 4.1.x, 3.2.x, and earlier, when XSM is enabled, allow local users to cause a denial of service (processor fault) via unspecified vectors, a different vulnerability than CVE-2014-1892, CVE-2014-1893, and CVE-2014-1894.",
+        "mitre": "CWE-189"
+      },
+      {
+        "id": "CVE-2014-1893",
+        "score": 0,
+        "desc": "Multiple integer overflows in the (1) FLASK_GETBOOL and (2) FLASK_SETBOOL suboperations in the flask hypercall in Xen 4.1.x, 3.3.x, 3.2.x, and earlier, when XSM is enabled, allow local users to cause a denial of service (processor fault) via unspecified vectors, a different vulnerability than CVE-2014-1891, CVE-2014-1892, and CVE-2014-1894.",
+        "mitre": "CWE-189"
+      },
+      {
+        "id": "CVE-2014-1894",
+        "score": 0,
+        "desc": "Multiple integer overflows in unspecified suboperations in the flask hypercall in Xen 3.2.x and earlier, when XSM is enabled, allow local users to cause a denial of service (processor fault) via unspecified vectors, a different vulnerability than CVE-2014-1891, CVE-2014-1892, and CVE-2014-1893.",
+        "mitre": "CWE-189"
+      },
+      {
+        "id": "CVE-2014-1895",
+        "score": 0,
+        "desc": "Off-by-one error in the flask_security_avc_cachestats function in xsm/flask/flask_op.c in Xen 4.2.x and 4.3.x, when the maximum number of physical CPUs are in use, allows local users to cause a denial of service (host crash) or obtain sensitive information from hypervisor memory by leveraging a FLASK_AVC_CACHESTAT hypercall, which triggers a buffer over-read.",
+        "mitre": "CWE-189"
+      }
+    ]
+  },
+  {
+    "package": "lodash",
+    "platform": "npm",
+    "cves": [
+      {
+        "id": "CVE-2018-3721",
+        "score": 6.5,
+        "desc": "lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of \"Object\" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+        "mitre": "CWE-471"
+      },
+      {
+        "id": "CVE-2018-16487",
+        "score": 5.6,
+        "desc": "A prototype pollution vulnerability was found in lodash <4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.",
+        "mitre": "CWE-400"
+      },
+      {
+        "id": "CVE-2019-1010266",
+        "score": 6.5,
+        "desc": "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",
+        "mitre": "CWE-400"
+      },
+      {
+        "id": "CVE-2019-10744",
+        "score": 9.1,
+        "desc": "Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.",
+        "mitre": "CWE-1321"
+      },
+      {
+        "id": "CVE-2019-19771",
+        "score": 8.8,
+        "desc": "The lodahs package 0.0.1 for Node.js is a Trojan horse, and may have been installed by persons who mistyped the lodash package name. In particular, the Trojan horse finds and exfiltrates cryptocurrency wallets.",
+        "mitre": "NVD-CWE-noinfo"
+      }
+    ]
+  },
+  {
+    "package": "pandas",
+    "platform": "pypi",
+    "cves": [
+      {
+        "id": "CVE-2020-13091",
+        "score": 9.8,
+        "desc": "pandas through 1.0.3 can unserialize and execute commands from an untrusted file that is passed to the read_pickle() function, if __reduce__ makes an os.system call. NOTE: third parties dispute this issue because the read_pickle() function is documented as unsafe and it is the user's responsibility to use the function in a secure manner",
+        "mitre": "CWE-502"
+      },
+      {
+        "id": "CVE-2023-39661",
+        "score": 9.8,
+        "desc": "An issue in pandas-ai v.0.9.1 and before allows a remote attacker to execute arbitrary code via the _is_jailbreak function.",
+        "mitre": "CWE-74"
+      },
+      {
+        "id": "CVE-2023-39662",
+        "score": 9.8,
+        "desc": "An issue in llama_index v.0.7.13 and before allows a remote attacker to execute arbitrary code via the `exec` parameter in PandasQueryEngine function.",
+        "mitre": "CWE-74"
+      },
+      {
+        "id": "CVE-2023-39660",
+        "score": 9.8,
+        "desc": "An issue in Gaberiele Venturi pandasai v.0.8.0 and before allows a remote attacker to execute arbitrary code via a crafted request to the prompt function.",
+        "mitre": "NVD-CWE-noinfo"
+      },
+      {
+        "id": "CVE-2023-46134",
+        "score": 6.1,
+        "desc": "D-Tale is the combination of a Flask back-end and a React front-end to view & analyze Pandas data structures. Prior to version 3.7.0, users hosting D-Tale publicly can be vulnerable to remote code execution, allowing attackers to run malicious code on the server. This issue has been patched in version 3.7.0 by turning off \"Custom Filter\" input by default. The only workaround for versions earlier than 3.7.0 is to only host D-Tale to trusted users.\n",
+        "mitre": "CWE-79"
+      }
+    ]
+  },
+  {
+    "package": "requests",
+    "platform": "pypi",
+    "cves": [
+      {
+        "id": "CVE-1999-0168",
+        "score": 0,
+        "desc": "The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-0107",
+        "score": 0,
+        "desc": "Buffer overflow in Apache 1.2.5 and earlier allows a remote attacker to cause a denial of service with a large number of GET requests containing a large number of / characters.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-0551",
+        "score": 0,
+        "desc": "HP OpenMail can be misconfigured to allow users to run arbitrary commands using malicious print requests.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-0797",
+        "score": 0,
+        "desc": "NIS finger allows an attacker to conduct a denial of service via a large number of finger requests, resulting in a large number of NIS queries.",
+        "mitre": "NVD-CWE-Other"
+      },
+      {
+        "id": "CVE-1999-1412",
+        "score": 0,
+        "desc": "A possible interaction between Apple MacOS X release 1.0 and Apache HTTP server allows remote attackers to cause a denial of service (crash) via a flood of HTTP GET requests to CGI programs, which generates a large number of processes.",
+        "mitre": "NVD-CWE-noinfo"
+      }
+    ]
+  }
+]
