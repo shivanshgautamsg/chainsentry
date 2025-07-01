@@ -116,12 +116,6 @@ ML Researcher | AI Enthusiast | Tech Innovator
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 ## ⭐ If you believe in proactive cybersecurity, star this repo!
 
 ```
