@@ -1,7 +1,3 @@
-Absolutely, Shivansh — here is your **complete, single-block `README.md`** file for ChainSentry, ready to copy-paste directly into your GitHub repo:
-
----
-
 ````markdown
 # 🛡️ ChainSentry
 
