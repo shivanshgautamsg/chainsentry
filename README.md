@@ -110,6 +110,7 @@ This isn’t static scanning. This is **AI-driven proactive threat detection**.
 ## 👤 Built By
 
 **SG**
+
 ML Researcher | AI Enthusiast | Tech Innovator
 🔗 [linkedin.com/in/shivanshgautam](https://linkedin.com/in/shivanshgautam)
 
